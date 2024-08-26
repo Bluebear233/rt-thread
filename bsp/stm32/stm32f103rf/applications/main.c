@@ -13,10 +13,12 @@
 #include <board.h>
 
 /* defined the LED0 pin: PB1 */
-#define LED0_PIN    GET_PIN(B, 1)
+#define LED0_PIN    GET_PIN(A, 8)
 
 int main(void)
 {
+    return RT_EOK;
+    
     int count = 1;
     /* set LED0 pin mode to output */
     rt_pin_mode(LED0_PIN, PIN_MODE_OUTPUT);
