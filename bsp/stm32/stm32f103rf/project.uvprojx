@@ -1207,6 +1207,11 @@
               <FilePath>board\tim1.c</FilePath>
             </File>
             <File>
+              <FileName>tim2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\board\tim2.c</FilePath>
+            </File>
+            <File>
               <FileName>tim8.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\board\tim8.c</FilePath>
