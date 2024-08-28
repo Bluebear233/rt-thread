@@ -71,6 +71,8 @@ static int tim1_init(void)
         {
             Error_Handler();
         }
+        
+        
         sConfigOC.OCMode = TIM_OCMODE_PWM2;
         sConfigOC.Pulse = 499;
         sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
@@ -96,7 +98,7 @@ static int tim1_init(void)
         /* USER CODE BEGIN TIM1_Init 2 */
 
         /* USER CODE END TIM1_Init 2 */
-        HAL_TIM_MspPostInit(&htim1);
+        //HAL_TIM_MspPostInit(&htim1);
     }
     
     __HAL_TIM_ENABLE(&htim1);

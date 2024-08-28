@@ -15,7 +15,7 @@ static int tim2_init(void)
     {
         GPIO_InitTypeDef GPIO_InitStruct = {0};
         __HAL_RCC_TIM2_CLK_ENABLE();
-
+        __HAL_RCC_AFIO_CLK_ENABLE();    
         __HAL_RCC_GPIOA_CLK_ENABLE();
         /**TIM2 GPIO Configuration
         PA0-WKUP     ------> TIM2_CH1
